@@ -1,11 +1,20 @@
-import logo from './logo.svg';
+
 import './App.css';
+import {Header} from './Header'
+import {MyNavBar} from './MyNavBar'
+import {Main} from './Main'
+import {Footer} from  './Footer'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
-    <div className="App">
-
-    </div>
+    <>
+    <Header />
+    <MyNavBar />
+    <Main />
+    <Footer />
+    </>
   );
 }
 
